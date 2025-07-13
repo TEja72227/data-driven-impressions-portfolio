@@ -34,7 +34,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex justify-center sm:justify-start">
               <Button
                 onClick={scrollToPortfolio}
                 size="lg"
@@ -42,14 +42,6 @@ const Hero = () => {
               >
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-smooth" />
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Download Resume
               </Button>
             </div>
 
