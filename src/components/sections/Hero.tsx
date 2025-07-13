@@ -29,6 +29,7 @@ const Hero = () => {
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Turning data into decisions with{' '}
                 <span className="text-primary font-semibold">Power BI</span>,{' '}
+                <span className="text-primary font-semibold">Excel</span>,{' '}
                 <span className="text-primary font-semibold">SQL</span>, and{' '}
                 <span className="text-primary font-semibold">business logic</span>.
               </p>

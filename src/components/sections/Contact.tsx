@@ -31,12 +31,11 @@ const Contact = () => {
                   <Mail className="h-6 w-6" />
                 </div>
                 <div className="text-center">
-                  <div className="text-sm text-muted-foreground">Email</div>
                   <a 
                     href="mailto:duvvurubharadwaj@gmail.com" 
-                    className="font-medium text-primary hover:underline"
+                    className="font-medium text-foreground hover:text-primary transition-smooth"
                   >
-                    duvvurubharadwaj@gmail.com
+                    Email
                   </a>
                 </div>
               </div>
@@ -46,12 +45,11 @@ const Contact = () => {
                   <Phone className="h-6 w-6" />
                 </div>
                 <div className="text-center">
-                  <div className="text-sm text-muted-foreground">Phone</div>
                   <a 
                     href="tel:+12035078997" 
-                    className="font-medium text-primary hover:underline"
+                    className="font-medium text-foreground hover:text-primary transition-smooth"
                   >
-                    +1 (203) 507-8997
+                    Phone
                   </a>
                 </div>
               </div>
@@ -61,14 +59,13 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6" />
                 </div>
                 <div className="text-center">
-                  <div className="text-sm text-muted-foreground">LinkedIn</div>
                   <a 
                     href="https://linkedin.com/in/bharadwaj-0934442b5" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="font-medium text-primary hover:underline"
+                    className="font-medium text-foreground hover:text-primary transition-smooth"
                   >
-                    linkedin.com/in/bharadwaj-0934442b5
+                    LinkedIn
                   </a>
                 </div>
               </div>
