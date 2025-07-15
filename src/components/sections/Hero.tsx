@@ -49,15 +49,15 @@ const Hero = () => {
             {/* Stats */}
             <div className="mt-12 grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">5+</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">Projects</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">2+</div>
+                <div className="text-2xl font-bold text-primary">3+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
+                <div className="text-2xl font-bold text-primary">25+</div>
                 <div className="text-sm text-muted-foreground">Dashboards Built</div>
               </div>
             </div>

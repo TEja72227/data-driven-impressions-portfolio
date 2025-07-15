@@ -18,9 +18,25 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: 'AI Platform Analytics & ETL Pipeline Development',
+      type: 'real-time',
+      period: 'Jan 2024 - Jun 2025',
+      company: 'NerdPine, Oregon',
+      tools: ['SQL', 'Python', 'Power BI', 'AWS', 'GCP'],
+      description: 'Developed end-to-end ETL pipelines using SQL and Python to unify ERP, CRM, and cloud AI data (AWS, GCP), enabling consistent KPI tracking across clients.',
+      impact: 'Uncovered 25% over-provisioned cloud resources and improved model deployment speed by 40%, contributing to $50K+ in annualized client savings.',
+      details: [
+        'Built Power BI dashboards monitoring AI adoption metrics, compute usage, job failure rates, and compliance readiness',
+        'Partnered with AI engineers and governance teams to automate reporting on MLOps performance',
+        'Ensured alignment with HIPAA/GDPR standards for all data processing workflows',
+        'Optimized cloud resource allocation resulting in significant cost savings for clients'
+      ]
+    },
+    {
+      id: 2,
       title: 'Marketing Campaign Performance Dashboard',
       type: 'real-time',
-      period: 'Jun 2022 - May 2023',
+      period: 'Jun 2021 - May 2023',
       company: 'The Group 7, Hyderabad',
       tools: ['SQL', 'Power BI', 'Excel'],
       description: 'Analyzed multi-channel marketing data to evaluate campaign ROI. Built dashboards tracking lead engagement, ad spend, and conversion trends.',
@@ -33,7 +49,7 @@ const Portfolio = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: 'Quote-to-Sale Performance Dashboard',
       type: 'simulated',
       period: 'Jul 2025',
@@ -49,7 +65,7 @@ const Portfolio = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: 'Healthcare Claims Risk Analysis',
       type: 'freelance',
       period: 'Apr 2025',
@@ -65,7 +81,7 @@ const Portfolio = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: 'D-Mart Inventory Optimization',
       type: 'freelance',
       period: 'Jun 2024',
@@ -81,7 +97,7 @@ const Portfolio = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: 'Financial Health Dashboard',
       type: 'capstone',
       period: 'Dec 2024',

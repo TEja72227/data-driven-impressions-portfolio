@@ -7,9 +7,15 @@ const About = () => {
     'Power BI, DAX',
     'Excel (Advanced Reporting)',
     'Python (Pandas, ETL)',
-    'ERP/SAP Data Cleanup',
+    'ETL Pipelines & Data Integration',
+    'AWS & GCP Cloud Analytics',
+    'MLOps Performance Monitoring',
+    'ERP/CRM Data Unification',
+    'HIPAA/GDPR Compliance',
     'Dashboard Development',
-    'Forecasting, KPI Analysis'
+    'KPI Tracking & Analysis',
+    'Forecasting & Risk Modeling',
+    'Cost Optimization Analysis'
   ];
 
   const education = [
